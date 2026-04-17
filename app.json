@@ -1,4 +1,7 @@
 {
   "name": "todos",
   "displayName": "todos"
-}
+},
+ "eas": {
+        "projectId": "9f0e3c28-e0a0-40e5-910c-274cf10786b9"
+      }
