@@ -90,7 +90,7 @@ export function TaskItem({ task, toggleTaskDone, editTask, removeTask }: TasksIt
           <TouchableOpacity
             onPress={handleStartEditing}
           >
-            <Image source={require('../assets/icons/editIcon')} />
+            <Image source={require('../assets/icons/edit/edit.png')} />
           </TouchableOpacity>
         )
         }
@@ -100,7 +100,7 @@ export function TaskItem({ task, toggleTaskDone, editTask, removeTask }: TasksIt
           onPress={() => removeTask(task.id)}
           disabled={isEditing}
         >
-          <Image source={require('../assets/icons/trashIcon')} style={{ opacity: isEditing ? 0.2 : 1 }} />
+          <Image source={require('../assets/icons/trash/trash.png')} style={{ opacity: isEditing ? 0.2 : 1 }} />
         </TouchableOpacity>
       </View>
     </View>

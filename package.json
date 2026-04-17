@@ -16,6 +16,7 @@
     "@react-navigation/native": "^6.1.18",
     "@taccolaa/react-native-settings-screen": "^2.2.10",
     "expo": "^55.0.15",
+    "hermes-compiler": "^250829098.0.2",
     "import": "^0.0.6",
     "react": "18.3.1",
     "react-native": "0.77.0",
