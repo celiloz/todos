@@ -2,6 +2,8 @@
   "name": "todos",
   "displayName": "todos",
   "expo": {
+    "name": "todos",
+    "slug": "todos",
     "android": {
       "package": "com.celiloz.todos"
     },
